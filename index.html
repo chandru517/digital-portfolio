@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="build.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to building construction guidence Portfolio..</h2>
+         <p> i can do my best work.</p>
+    </section>
+    <head>
+        <style>
+            body {
+                background-image: url('build.jpg'); /* Replace with actual image */
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    
+     <section class="projects">
+        <h2>The bike project</h2>
+        <div class="project">
+            <div class="project">
+                <style>
+                    .zoom-container {
+                        display: flex; 
+                        justify-content: center; /* Centers horizontally */
+                        align-items: center; /* Centers vertically */
+                        height: 100vh; /* Makes container full height of viewport */
+                        width: 100vw; /* Makes container full width of viewport */
+                        position: relative;
+                        overflow: hidden;
+                    }
+            
+                    .zoom-container img {
+                        max-width: 80%; /* Ensures image is not too large */
+                        max-height: 80%; /* Keeps aspect ratio */
+                        object-fit: contain;
+                        transition: transform 0.3s ease-in-out;   
+                    }
+            
+                    .zoom-container:hover img {
+                        transform: scale(1.1); /* Zoom effect */
+                    }
+                </style>
+            
+                <div class="zoom-container">
+                    <img src="rx1.jpg">
+                </div>
+            </div>
+         
+        
+            <h3 class="animated-slide">The details</h3>
+            <ul>
+                <p  class="animated-slide">3-inch LCD screen: The camera has a 3-inch LCD screen with 12M dots</p>
+                <p  class="animated-slide">Contrast detect autofocus: It uses contrast detect autofocus for focusing</p>
+                <p  class="animated-slide">Optical image stabilization: It has optical image stabilization for sharper images</p>
+                <p  class="animated-slide">Burst Mode: It has a burst mode that can capture up to 10 fps</p>
+            </ul>
+            
+                 
+        </div>
+        <div class="project">
+            <style>
+                .zoom-container {
+                    display: flex; 
+                    justify-content: center; /* Centers horizontally */
+                    align-items: center; /* Centers vertically */
+                    height: 100vh; /* Makes container full height of viewport */
+                    width: 100vw; /* Makes container full width of viewport */
+                    position: relative;
+                    overflow: hidden;
+                }
+        
+                .zoom-container img {
+                    max-width: 80%; /* Ensures image is not too large */
+                    max-height: 80%; /* Keeps aspect ratio */
+                    object-fit: contain;
+                    transition: transform 0.3s ease-in-out;   
+                }
+        
+                .zoom-container:hover img {
+                    transform: scale(1.1); /* Zoom effect */
+                }
+            </style>
+        
+            <div class="zoom-container">
+                <img src="bulid2.jpg"  >
+            </div>
+        </div>
+              
+            
+            <div class="content">
+                <h2 class="animated-text">The  benefits</h2>
+                <p class="animated-text">compact size</p>
+                <p class="animated-text">high image quality</p>
+                <p class="animated-text"> powerful features</p>
+                <p class="animated-text">Excellent Lens</p>
+                <p class="animated-text">Fast Autofocus</p>
+                <p class="animated-text">High Burst Speed</p>
+                <p class="animated-text">RAW format</p>
+                <p class="animated-text">Built-in Viewfinder</p>
+                <p class="animated-text">Tiltable Screen</p>
+                <p class="animated-text">Manual Controls</p>
+                <p class="animated-text">Image Stabilization</p>
+                <p class="animated-text">External Microphone Jack</p>
+                <p class="animated-text">External Microphone Jac</p>
+                <p class="animated-text">Battery Life</p>
+                <p class="animated-text">Button Layout</p>
+            </div>
+            
+    </section>
+    <footer>
+        <p><strong>&copy; 2025 My Portfolio. All Rights Reserved.</strong></p>
+    </footer>
+
+</body>
+</html><html>
+<head>
+<title>Get Maximum Value of Multi Dimensional Array</title>
+</head>
+<center>
+<body bgcolor="purple">
+<h1>MAXIMUM VALUE OF MULTI DIMENSIONAL ARRAY</h1>
+<?php
+$arr=array(array(110,20,52),array(105,56,89,96),array(556,89,96));
+print_r($arr);
+echo"<br>"; 
+echo "Maximum Value Of This Array is:";
+$b=0;
+foreach($arr as $val)
+{
+foreach($val as $key=>$val1)
+{
+if($val1>$b)
+{
+$b=$val1;
+}
+}
+}
+echo $b;
+?>
+</center>
+</body>
+</html>
